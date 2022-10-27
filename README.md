@@ -1,7 +1,7 @@
 # schedule-ec2-instances-managed-by-autoscalinggroups
 
 Many times, we have a lot of cloud waste because we never shut down our services/EC2 instances. One of the most
-challenging cases is to schedule those instances that belong to an Autiscaling Group.
+challenging cases is to schedule those instances that belong to an Autoscaling Group.
 
 To Begin you must create two Lambda functions:
 
