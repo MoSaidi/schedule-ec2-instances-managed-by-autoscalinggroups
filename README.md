@@ -9,7 +9,6 @@ To Begin you must create two Lambda functions:
 
 2. One for **starting** that is going to have a **+1** as the environment variables (MIN_SIZE, MAX_SIZE and DESIRED_CAPACITY).
 
-
 # Create new Lambda function for (Start/Stop) Event
 
 you can find the lambda functions that you gonna use for start and stop the instances in thz main directory : **start-instances.py** and **stop-instances.py**.
