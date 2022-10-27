@@ -12,7 +12,7 @@ To Begin you must create two Lambda functions:
 
 # Create new Lambda function for (Start/Stop) Event
 
-you can find the lambda functions that you gonna use for start and stop the instances in main directory : **start-instances.py** and **stop-instances.py**.
+you can find the lambda functions that you gonna use for start and stop the instances in thz main directory : **start-instances.py** and **stop-instances.py**.
 
 after you create the lambda functions you must assign for them a policy that give the access to the autoscaling groups and also also allow them to create log groups in cloudwatch (you find the policy in the file : **iam-role.json**).
 
