@@ -16,5 +16,5 @@ you can find the lambda functions that you gonna use for start and stop the inst
 
 after you create the lambda functions you must assign for them a policy that give the access to the autoscaling groups and also also allow them to create log groups in cloudwatch (you find the policy in the directory : **iam-role**).
 
-Now for scheduling those lambda fuctions you need associate for each one of them an eventBridge rule.
+Now for scheduling those lambda fuctions you need associate for each one of them to an eventBridge rule.
 
